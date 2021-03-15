@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './../components/layout';
 import useInicio from './../hooks/useInicio';
 import Encuentra from './../components/encuentra';
+import ListadoPropiedades from './../components/listadoPropiedades';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import BackgroundImage from 'gatsby-background-image';
@@ -35,7 +36,8 @@ const Index = () => {
         </div>
       </main>
 
-    <Encuentra />
+      <Encuentra />
+      <ListadoPropiedades />
     </Layout>
     
   );

@@ -70,9 +70,7 @@ const Propiedades = ({data: {allStrapiPropiedades : {nodes}}}) => {
             <h1>{nombre}</h1>
             <Contenido>
                 <main>
-                    <Image
-                        fluid={imagen.sharp.fluid}
-                    />
+                    <Image fluid={imagen.sharp.fluid}/>
                     <p>{descripcion}</p>
                 </main>
                 <Sidebar>

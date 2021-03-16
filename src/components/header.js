@@ -35,9 +35,7 @@ const Header = () => {
 
                 `}
             >
-                <Link
-                    to={'/'}
-                ><img src={logo.publicURL} alt="Logotipo Inmobiliaria Gatsby"/></Link>
+                <Link to='/'><img src={logo.publicURL} alt="Logotipo Inmobiliaria Gatsby"/></Link>
                 <Navegacion />
             </div>
         </header>
